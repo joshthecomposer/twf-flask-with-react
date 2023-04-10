@@ -4,7 +4,7 @@ import "./NavBar.css"
 
 const NavBar = () => {
   return (
-        <div className="nav-test">
+        <>
             <div className="after hidden md:flex flex-row items-center gap-3 justify-end ">
                 <ul className="mt-4 mr-8 flex flex-row gap-10 items-center">
                     <li>
@@ -59,7 +59,7 @@ const NavBar = () => {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </>
     )
 }
 

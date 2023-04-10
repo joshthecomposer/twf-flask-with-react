@@ -20,7 +20,9 @@ const App = () => {
     },[])
     return (
         <>
-            <NavBar />
+            <div className='nav-test'>
+                <NavBar />
+            </div>
             <Routes>
                 <Route path="/" element={ <Home/> } />
                 <Route path="/about" element={<About />} />
