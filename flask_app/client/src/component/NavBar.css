@@ -14,3 +14,8 @@
     position:relative;
     background-image: url("../img/forest.jpg");
 }
+
+.nav-test-2 {
+    position:relative;
+    background-image : url('../img/mountains.jpg');
+}
