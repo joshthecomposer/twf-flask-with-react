@@ -2,14 +2,7 @@
     letter-spacing: normal;
 }
 h1 {
-    font-family: "Oswald";
-    color: #2D2D2D;
-    font-weight: 500;
-    font-size: 6.0rem;
-    margin-top: 4rem;
-    letter-spacing: normal;
-    text-transform: uppercase;
-    text-align: center;
+    font-family: "Oswald" !important;
 }
 .container {
     display: grid;
@@ -37,12 +30,12 @@ h1 {
     align-self: center;
     justify-self: start;
 }
-p {
+/* p {
     font-size: 1.8rem;
     color: #2D2D2D;
     font-weight: 500;
     letter-spacing: 2.5px;
-}
+} */
 
 h2 {
     color: #2D2D2D;
@@ -50,28 +43,24 @@ h2 {
     margin-top: 2rem;
     text-transform: uppercase;
 }
-h3 {
+/* h3 {
     font-size: 2.8rem;
     color: #2D2D2D;
     margin-top: 2rem;
     text-transform: uppercase;
-}
+} */
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.blurb {
-    max-width: 50%;
-    text-align: center;
-}
 .blurb p {
     font-weight: 800;
     letter-spacing: 2.8px;
 }
-hr {
+/* hr {
     border-top: 2px solid #2D2D2D;
     width: 45%;
     text-align: center;
     margin: 4rem 0 4rem 0;
-}
+} */
