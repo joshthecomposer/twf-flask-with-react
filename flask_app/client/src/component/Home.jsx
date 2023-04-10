@@ -8,17 +8,19 @@ const Home = () => {
         <div className="flex flex-col items-center gap-10">
             <h1 className='text-[2.2rem] font-medium md:font-normal md:text-[7rem] mt-[4rem] uppercase text-center text-[2D2D2D]'>
                 Welcome to Tolkien With Friends
-            </h1>
-                <h2 className="text-[1.3rem] md:text-4xl font-medium">
-                    Let's Explore Together
-              </h2>
-              <div className="w-full md:w-1/4 flex flex-col gap-5 items-center text-center w-1/3">
+              </h1>
+              <div className="flex flex-col items-center rounded-lg shadow-lg">
+                    <h2 className="text-[1.3rem] md:text-4xl font-medium">
+                        Let's Explore Together
+                    </h2>
+                    <div className="w-full md:w-1/4 flex flex-col gap-5 items-center text-center w-1/3">
 
-                    <hr className='border-t-1 border-mines w-3/4 mt-3' />
-                    <p className="text-mines font-medium text-[1.3rem] md:text-[2rem]">Join Andie, Kali and friends as they re-discover Middle-earth together by comparing the works of Tolkien to their various adaptations, starting with Peter Jackson's take on <i>Lord of the Rings</i> and <i>The Hobbit</i>.</p>
-                    <hr className="border-t-1 border-mines w-3/4 mb-2" />
-                    <Link to="about" className="flex items-center justify-center hover:bg-mines-500 hover:bg-opacity-10 text-mines border border-mines rounded-lg px-3 py-1 mb-[8rem]"><p>MORE ABOUT US</p></Link>
-                </div> 
+                        <hr className='border-t-1 border-mines w-3/4 mt-3' />
+                        <p className="text-mines font-medium text-[1.3rem] md:text-[2rem]">Join Andie, Kali and friends as they re-discover Middle-earth together by comparing the works of Tolkien to their various adaptations, starting with Peter Jackson's take on <i>Lord of the Rings</i> and <i>The Hobbit</i>.</p>
+                        <hr className="border-t-1 border-mines w-3/4 mb-2" />
+                        <Link to="about" className="flex items-center justify-center hover:bg-mines-500 hover:bg-opacity-10 text-mines border border-mines rounded-lg px-3 py-1 mb-[8rem]"><p>MORE ABOUT US</p></Link>
+                    </div> 
+              </div>
             {/* <img className="self-start" src="./img/hill 2.svg" alt="" /> */}
           </div>
           <div className="">
