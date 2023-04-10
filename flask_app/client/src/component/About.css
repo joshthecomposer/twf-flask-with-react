@@ -49,11 +49,11 @@ h2 {
     margin-top: 2rem;
     text-transform: uppercase;
 } */
-.header {
+/* .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 .blurb p {
     font-weight: 800;
     letter-spacing: 2.8px;
