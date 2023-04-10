@@ -17,7 +17,7 @@ const Home = () => {
                     <hr className='border-t-1 border-mines w-3/4 mt-3' />
                     <p className="text-mines font-medium text-[1.3rem] md:text-[2rem]">Join Andie, Kali and friends as they re-discover Middle-earth together by comparing the works of Tolkien to their various adaptations, starting with Peter Jackson's take on <i>Lord of the Rings</i> and <i>The Hobbit</i>.</p>
                     <hr className="border-t-1 border-mines w-3/4 mb-2" />
-                    <Link to="about" className="flex items-center justify-center hover:bg-mines-500 hover:bg-opacity-10 text-mines border border-mines rounded-lg px-3 py-1 mb-[8rem]"><p>MORE ABOUT US</p></Link>
+                    <Link to="about" className="flex items-center justify-center text-white font-medium bg-indigo-900 rounded-lg px-10 py-5 mb-[8rem]"><p>MORE ABOUT US</p></Link>
                 </div>
                 {/* <img className="self-start" src="./img/hill 2.svg" alt="" /> */}
             </div>
@@ -25,7 +25,7 @@ const Home = () => {
                 <h1 className='text-[7rem] font-normal mt-[4rem] uppercase text-center text-white'>
                     LATEST VIDEOS
                 </h1>
-                <div className='flex flex-wrap gap-3 mb-20'>
+                <div className='flex flex-wrap gap-3 mb-'>
                     <div className="w-[100vw] h-[56.25vw] md:w-[64rem] md:h-[36rem] bg-twfg-900 rounded-lg px-5 py-5">
                         <iframe className="h-full w-full rounded-xl" src="https://www.youtube.com/embed/S_0UqVlvyrU" title="Season 2 Episode 3: A Short Rest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
@@ -33,6 +33,7 @@ const Home = () => {
                         <iframe className="h-full w-full rounded-xl" src="https://www.youtube.com/embed/tnlPYgPOeZ0" title="Season 2 Episode 3: A Short Rest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
+                <Link to="/episodes" className="flex items-center justify-center text-white font-medium bg-purple-900 rounded-lg px-10 py-5 mb-[8rem]"><p className="uppercase font-medium">Listen to More</p></Link>
             </div>
 
             <div className="diag"></div>
@@ -57,7 +58,7 @@ const Home = () => {
                     </a>
                 </div>
             </div>
-        </>
+    </>
     )
 }
 

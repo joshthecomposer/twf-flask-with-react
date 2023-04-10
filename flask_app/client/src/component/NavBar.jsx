@@ -5,7 +5,7 @@ import "./NavBar.css"
 const NavBar = () => {
   return (
         <>
-            <div className="after hidden md:flex flex-row items-center gap-3 justify-end ">
+            <div className=" hidden md:flex flex-row items-center gap-3 justify-end">
                 <ul className="mt-4 mr-8 flex flex-row gap-10 items-center">
                     <li>
                         <a href="patreon.com">
@@ -46,7 +46,7 @@ const NavBar = () => {
                         <a rel="noreferrer" target="_blank" className="text-3xl hover:text-gray-500" href="https://tolkien-with-friends-shop.creator-spring.com/">Merch</a>
                     </li>
                     <li>
-                        <Link to="/"><img className="h-[30rem] w-[30rem]" src="img/BIGGGG-01.png" alt="Tolkien with Friends" /></Link>
+                        <Link to="/"><img className="transform transition duration-500 scale-500 hover:scale-[102%] h-[30rem] w-[30rem]" src="img/BIGGGG-01.png" alt="Tolkien with Friends" /></Link>
                     </li>
                     <li>
                         <Link className="text-3xl hover:text-gray-500" to="/blogs">Blogs</Link>

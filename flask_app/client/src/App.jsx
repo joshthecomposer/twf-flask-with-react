@@ -21,7 +21,8 @@ const App = () => {
     return (
         <>
             <div className='nav-test'>
-                <NavBar />
+
+            <NavBar />
             </div>
             <Routes>
                 <Route path="/" element={ <Home/> } />
