@@ -6,7 +6,7 @@ const Home = () => {
   return (
       <>
         <div className="flex flex-col gap-10 items-center bg-[#83967D]">
-            <h1 className='text-[7rem] font-normal mt-[4rem] uppercase text-center text-[2D2D2D]'>Latest Episode</h1>
+            <h1 className='text-[5rem] md:text-[7rem] font-normal mt-[4rem] uppercase text-center text-[2D2D2D]'>Latest Episode</h1>
               <div className="flex flex-col justify-between gap-4 bg-[#5f6149] rounded py-6 px-8 mb-5 min-h-[120px] min-w-[200px]">
             </div>
             <img className="self-start" src="./img/hill 2.svg" alt="" />
@@ -14,10 +14,10 @@ const Home = () => {
 
         <div className="flex flex-col gap-10 items-center bg-[#546142]">
             <div className="w-full md:w-2/3 lg:w-1/2 flex flex-col gap-5 items-center text-center w-1/3">
-                <hr className='border-t-1 border-white w-3/4' /> 
-                <p className="text-white text-[2rem]">Join Andie, Kali and friends as they re-discover Middle-earth together by comparing the works of Tolkien to their various adaptations, starting with Peter Jackson's take on <i>Lord of the Rings</i> and <i>The Hobbit</i>.</p>
-                <hr className="border-t-1 border-white w-3/4" />
-                <Link to="about"><p className="text-white border border-white rounded px-5 py-1">MORE ABOUT US</p></Link>
+                <hr className='border-t-1 border-white w-3/4 mt-3' /> 
+                <p className="text-white text-[1.3rem] md:text-[1.9rem]">Join Andie, Kali and friends as they re-discover Middle-earth together by comparing the works of Tolkien to their various adaptations, starting with Peter Jackson's take on <i>Lord of the Rings</i> and <i>The Hobbit</i>.</p>
+                <hr className="border-t-1 border-white w-3/4 mb-2" />
+                <Link to="about" className="flex items-center justify-center hover:bg-white hover:bg-opacity-10 text-white border border-white rounded-lg px-3 py-1"><p>MORE ABOUT US</p></Link>
             </div> 
         </div>
 

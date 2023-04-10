@@ -4,6 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import NavBar from './component/NavBar'
 import About from "./component/About"
 import Home from './component/Home'
+import Footer from './component/Footer'
 import axios from 'axios'
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
                 <Route path="/" element={ <Home/> } />
                 <Route path="/about" element={<About />} />
             </Routes>
+            <Footer />
         </>
     )
 }
