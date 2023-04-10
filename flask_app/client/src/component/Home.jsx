@@ -6,7 +6,7 @@ const Home = () => {
   return (
       <>
         <div className="flex flex-col gap-10 items-center bg-[#83967D]">
-            <h1 className="text-[7rem] font-normal">Latest Episode</h1>
+            <h1 className='text-[7rem] font-normal mt-[4rem] uppercase text-center text-[2D2D2D]'>Latest Episode</h1>
               <div className="flex flex-col justify-between gap-4 bg-[#5f6149] rounded py-6 px-8 mb-5 min-h-[120px] min-w-[200px]">
             </div>
             <img className="self-start" src="./img/hill 2.svg" alt="" />
