@@ -5,11 +5,11 @@ import "./Home.css"
 const Home = () => {
   return (
       <>
-        <div className="flex flex-col gap-10 items-center bg-[#83967D]">
+        <div className="flex flex-col gap-10 items-center bg-[#F7F7F7]">
             <h1 className='text-[5rem] md:text-[7rem] font-normal mt-[4rem] uppercase text-center text-[2D2D2D]'>Latest Episode</h1>
               <div className="flex flex-col justify-between gap-4 bg-[#5f6149] rounded py-6 px-8 mb-5 min-h-[120px] min-w-[200px]">
             </div>
-            <img className="self-start" src="./img/hill 2.svg" alt="" />
+            {/* <img className="self-start" src="./img/hill 2.svg" alt="" /> */}
         </div>
 
         <div className="flex flex-col gap-10 items-center bg-[#546142]">
@@ -21,7 +21,7 @@ const Home = () => {
             </div> 
         </div>
 
-        <div className="diag"></div>
+        {/* <div className="diag"></div> */}
 
         <div className="flex flex-wrap gap-24 p-5 m-5 bg-[#83967D] justify-center">
             <div className="flex flex-col items-center p-8 w-[300px] h-[400px] shadow rounded bg-[#b7c2b3] gap-3">
