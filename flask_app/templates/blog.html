@@ -1,0 +1,20 @@
+{%include "header.html"%}
+{%include "nav.html"%}
+<body>
+    <div class="container col-md-6 col-sm-12 my-5 shadow rounded p-3">
+        <h1>Start a Blog Post</h1>
+        <form action="/admin/blogs/create" method="post">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" name="title">
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" name="author">
+            </div>
+            <p class="text-muted my-3">Submit to begin adding content and media</p>
+            <button type="submit" class="btn btn-outline-primary col-12">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

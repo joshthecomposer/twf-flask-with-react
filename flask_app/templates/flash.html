@@ -1,0 +1,10 @@
+
+{%with messages = get_flashed_messages()%}
+    {%if messages%}
+        <div class="container bg-danger">
+            {%for message in messages%}
+                <p class="text-white">{{message}}</p>
+            {%endfor%}
+        </div>
+    {%endif%}
+{%endwith%}

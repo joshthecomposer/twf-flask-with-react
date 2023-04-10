@@ -1,0 +1,13 @@
+{%include "header.html"%}
+{%include "nav.html"%}
+<body>
+    {%for b in all_blogs%}
+        <div class="container shadow my-3 rounded col-9 p-3">
+            <h1 class="display-1 text-center">{{b.title}}</h1>
+            <p class="lead text-center"><em>by {{b.author}}</em></p>
+            <!-- <p style="white-space: pre-line">{{b.content}}</p> -->
+            <a class="btn btn-outline-primary" href="/admin/blogs/{{b.id}}">Edit</a>
+        </div>
+    {%endfor%}
+</body>
+</html>
