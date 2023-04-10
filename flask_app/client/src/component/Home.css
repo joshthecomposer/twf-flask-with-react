@@ -1,0 +1,33 @@
+.diag {
+    margin: 0;
+    max-width: 100%;
+    border-left: 99vw solid transparent;
+    border-top: 5vw solid #546142;
+    /* margin-top: -13.9vw; */
+}
+
+h1 {
+    font-family: "Oswald";
+    color: #2D2D2D;
+}
+
+.card-header {
+    font-family: 'Oswald';
+    color: #2D2D2D;
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.thumbnail {
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    opacity: 80%;
+    transition: all 500ms;
+}
+
+.thumbnail:hover {
+    transform: scale(105%);
+    transition: all 500ms;
+}

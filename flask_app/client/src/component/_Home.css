@@ -1,0 +1,65 @@
+h1 {
+    font-family: "Oswald";
+    color: #2D2D2D;
+    font-weight: 500;
+    font-size: 6.0rem !important;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+h2 {
+    font-style: italic;
+    letter-spacing: 0;
+    color: rgb(193, 193, 193);
+    font-weight: 300;
+    font-size: 20px;
+}
+.ep-no {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: white;
+}
+
+hr {
+    border-top: 1px solid white;
+    width: 75%;
+    text-align: center;
+}
+.blurb {
+    color: white;
+    letter-spacing: 1px;
+    /* font-weight: ; */
+    font-size: 2.0rem;
+}
+
+.more {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    background-color: transparent;
+    transition: all 1s;
+}
+.more:hover {
+    transition: all 1s;
+    color: #546142;
+    background-color: white;
+}
+.more:active {
+    transform: translateY(3px);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color:#b7c2b3;
+    gap: 3rem;
+}
+
