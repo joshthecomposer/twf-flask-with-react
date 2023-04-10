@@ -23,8 +23,8 @@ pycparser = "==2.21"
 sgmllib3k = "==1.0.0"
 six = "==1.16.0"
 werkzeug = "==2.2.3"
-gunicorn = "*"
-waitress = "*"
+gunicorn = "==20.1.0"
+waitress = "==2.1.2"
 
 [dev-packages]
 

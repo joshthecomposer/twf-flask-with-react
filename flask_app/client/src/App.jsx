@@ -8,15 +8,16 @@ import Footer from './component/Footer'
 import axios from 'axios'
 
 const App = () => {
-    // const [message, setMessage] = useState(0);
-    // useEffect(() => {
-    //     axios.get("/api/episodes/latest")
-    //         .then(res => {
-    //             console.log(res.data.id);
-    //             setMessage(res.data.id);
-    //         } )
-    //         .catch(err => console.log(err));
-    // },[])
+    const [tempLink, setTempLink] = useState("http://localhost:5000")//TODO: disable this before building
+    const [audio, setAudio] = useState(0);
+    useEffect(() => {
+        axios.get(`${tempLink}/api/episodes/latest`)
+            .then(res => {
+                console.log(res.data.links[0].href);
+                setAudio(res.data.links[0].href);
+            } )
+            .catch(err => console.log(err));
+    },[])
     return (
         <>
             <NavBar />
