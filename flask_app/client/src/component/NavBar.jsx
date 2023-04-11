@@ -5,7 +5,7 @@ import "./NavBar.css"
 const NavBar = () => {
   return (
         <>
-            <div className=" hidden md:flex flex-row items-center gap-3 justify-end">
+            <div className="hidden md:flex flex-row items-center gap-3 justify-end">
                 <ul className="mt-4 mr-8 flex flex-row gap-10 items-center">
                     <li>
                         <a href="patreon.com">
@@ -34,7 +34,7 @@ const NavBar = () => {
                     </li>
                 </ul>
             </div>
-            <nav className="hidden md:flex items-center justify-center bg-lime-950 opacity-80 mt-[-40px]">
+            <nav className="hidden md:flex items-center justify-center bg-lime-950 mt-[-40px]">
                 <ul className="flex flex-row gap-10 items-center justify-center">
                     <li>
                         <Link className="text-3xl hover:text-gray-500" to="/about">About</Link>

@@ -4,15 +4,15 @@
 h1 {
     font-family: "Oswald" !important;
 }
-.container {
+/* .container {
     display: grid;
     padding: 5rem;
     grid-template-columns: 1fr 1fr;
     background-color: #83967D;
     row-gap: 5rem;
-}
+} */
 
-.prof-pic {
+/* .prof-pic {
     grid-column-start: 1;
     align-self: center;
     justify-self: flex-end;
@@ -21,15 +21,15 @@ h1 {
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     margin-right: 20rem;
 
-}
-.bio {
+} */
+/* .bio {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     grid-column-start: 2;
     align-self: center;
     justify-self: start;
-}
+} */
 /* p {
     font-size: 1.8rem;
     color: #2D2D2D;
