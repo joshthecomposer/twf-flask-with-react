@@ -26,10 +26,10 @@ const Home = () => {
                 </h1>
                 <div className='flex flex-wrap gap-3 mb-'>
                     <div className="w-[100vw] h-[56.25vw] md:w-[64rem] md:h-[36rem] bg-twfg-900 rounded-lg px-5 py-5">
-                        <iframe className="h-full w-full rounded-xl" src="https://www.youtube.com/embed/S_0UqVlvyrU" title="Season 2 Episode 3: A Short Rest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        {/* <iframe className="h-full w-full rounded-xl" src="https://www.youtube.com/embed/S_0UqVlvyrU" title="Season 2 Episode 3: A Short Rest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
                     </div>
                     <div className="w-[100vw] h-[56.25vw] md:w-[64rem] md:h-[36rem] bg-twfg-900 rounded-lg px-5 py-5">
-                        <iframe className="h-full w-full rounded-xl" src="https://www.youtube.com/embed/tnlPYgPOeZ0" title="Season 2 Episode 3: A Short Rest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        {/* <iframe className="h-full w-full rounded-xl" src="https://www.youtube.com/embed/tnlPYgPOeZ0" title="Season 2 Episode 3: A Short Rest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
                     </div>
                 </div>
                 <Link to="/episodes" className="flex items-center justify-center text-white font-medium bg-purple-900 rounded-lg px-10 py-5 mb-[8rem]"><p className="uppercase font-medium">Listen to More</p></Link>
