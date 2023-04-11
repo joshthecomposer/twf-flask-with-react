@@ -9,19 +9,22 @@ import axios from 'axios'
 import Episodes from './component/Episodes'
 
 const App = () => {
-    const [tempLink, setTempLink] = useState("http://localhost:5000")//TODO: disable this before building
-    const [audio, setAudio] = useState(0);
     const [audioObjectArray, setAudioObjectArray] = useState([]);
+    const [currentAudio, setCurrentAudio] = useState({
+        isPlaying:false
+    });
+    const masterAudioPlayer = () => {
+
+    }
     return (
         <>
             <div className='nav-test'>
-
-            <NavBar />
+                <NavBar />
             </div>
             <Routes>
                 <Route path="/" element={ <Home/> } />
                 <Route path="/about" element={<About />} />
-                <Route path="/episodes" element={<Episodes audioObjectArray={audioObjectArray} setAudioObjectArray={setAudioObjectArray} />} />
+                <Route path="/episodes" element={<Episodes audioObjectArray={audioObjectArray} setAudioObjectArray={setAudioObjectArray} currentAudio={ currentAudio } setCurrentAudio={setCurrentAudio} />} />
             </Routes>
             <Footer />
         </>
