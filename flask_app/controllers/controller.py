@@ -8,6 +8,7 @@ EPISODES = feedparser.parse("https://feeds.redcircle.com/7404a6c6-18b8-4f30-a819
 
 @app.route('/')
 @app.route('/about')
+@app.route('/episodes')
 def index():
     return app.send_static_file('index.html')
 
