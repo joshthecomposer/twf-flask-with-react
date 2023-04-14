@@ -19,12 +19,23 @@ def directory(path):
 @app.route("/api/episodes/latest", methods=["GET"])
 def latest():
     e = EPISODES.entries[0]
-    # print(e)
+    print(e)
     return jsonify(e)
 
 @app.route("/api/episodes", methods = ["GET"])
 def all_episodes():
-    return jsonify(EPISODES.entries)
+    e = EPISODES.entries
+    result = []
+    for oneEp in e:
+        oneEp = {
+            "title":oneEp.title,
+            "image" :{"href":oneEp.image.href},
+            "links":[{"href":oneEp.links[0].href}],
+            "summary":oneEp.summary
+        }
+        result.append(oneEp)
+        print(oneEp)
+    return jsonify(result)
 
 @app.route("/api/blogs", methods=["GET"])
 def api_all_blogs():
