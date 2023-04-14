@@ -20,7 +20,7 @@ const Episodes = () => {
     const masterAudio = useRef(new Audio());
 
     useEffect(() => {
-        axios.get("http://localhost:5000/api/episodes")
+        axios.get("/api/episodes")
             .then(res => {
                 setAudioObjectArray(res.data);
                 setDangerousHTML({ __html: res.data[0].summary });
