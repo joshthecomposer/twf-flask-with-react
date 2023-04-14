@@ -19,7 +19,6 @@ def directory(path):
 @app.route("/api/episodes/latest", methods=["GET"])
 def latest():
     e = EPISODES.entries[0]
-    print(e)
     return jsonify(e)
 
 @app.route("/api/episodes", methods = ["GET"])
@@ -34,7 +33,6 @@ def all_episodes():
             "summary":oneEp.summary
         }
         result.append(oneEp)
-        print(oneEp)
     return jsonify(result)
 
 @app.route("/api/blogs", methods=["GET"])
